@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive/responsive.dart';
+import 'package:responsive_context/responsive_context.dart';
 
 main1() {
   return Container(

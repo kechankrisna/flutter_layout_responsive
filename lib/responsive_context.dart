@@ -1,4 +1,4 @@
-library responsive;
+library responsive_context;
 
 export './ScreenSize.dart';
 export './extensionBoxConstrain.dart';
