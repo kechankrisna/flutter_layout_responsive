@@ -1,4 +1,4 @@
-name: responsive
+name: responsive context
 description: This is a resposive extension which allow you to spefic screen and screensize in your flutter application. You do not need to remember size width.
 version: 0.1.0
 homepage: https://github.com/kechankrisna/flutter_layout_responsive
