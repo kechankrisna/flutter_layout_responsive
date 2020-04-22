@@ -18,6 +18,7 @@ extension ExtensionBuildConext on BuildContext {
       MediaQuery.of(this).size.width > 992 &&
       MediaQuery.of(this).size.width <= 1200;
   bool get isExtraLarge => MediaQuery.of(this).size.width > 1200;
+  double get maxWidth => MediaQuery.of(this).size.width;
   String get screen {
     if (isExtraSmall) return "ExtraSmall";
     if (isSmall) return "Small";
@@ -28,7 +29,7 @@ extension ExtensionBuildConext on BuildContext {
   }
 
   ScreenSize get screenSize {
-    if (isExtraSmall) return ScreenSize.xl;
+    if (isExtraSmall) return ScreenSize.xs;
     if (isSmall) return ScreenSize.sm;
     if (isMedium) return ScreenSize.md;
     if (isLarge) return ScreenSize.lg;

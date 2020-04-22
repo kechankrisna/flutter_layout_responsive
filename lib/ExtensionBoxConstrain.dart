@@ -8,6 +8,7 @@ extension ExtensionBoxConstrain on BoxConstraints {
   bool get isMedium => this.maxWidth > 768 && this.maxWidth <= 992;
   bool get isLarge => this.maxWidth > 992 && this.maxWidth <= 1200;
   bool get isExtraLarge => this.maxWidth > 1200;
+
   String get screen {
     if (isExtraSmall) return "ExtraSmall";
     if (isSmall) return "Small";
@@ -18,7 +19,7 @@ extension ExtensionBoxConstrain on BoxConstraints {
   }
 
   ScreenSize get screenSize {
-    if (isExtraSmall) return ScreenSize.xl;
+    if (isExtraSmall) return ScreenSize.xs;
     if (isSmall) return ScreenSize.sm;
     if (isMedium) return ScreenSize.md;
     if (isLarge) return ScreenSize.lg;
