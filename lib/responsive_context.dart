@@ -1,8 +1,8 @@
 library responsive_context;
 
 export './ScreenSize.dart';
-export './extensionBoxConstrain.dart';
-export './extensionBuildConext.dart';
+export './ExtensionBoxConstrain.dart';
+export './ExtensionBuildConext.dart';
 
 // >> Ref: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 //   /* Extra small devices (phones, 600px and down) */

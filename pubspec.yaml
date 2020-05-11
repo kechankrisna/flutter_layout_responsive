@@ -1,6 +1,6 @@
 name: responsive_context
 description: This is a resposive extension which allow you to spefic screen and screensize in your flutter application. You do not need to remember size width.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/kechankrisna/flutter_layout_responsive
 
 environment:
