@@ -1,6 +1,7 @@
 # [0.2.0]
 
 * nullable support
+* effective dart
 
 # [0.1.2]
 
