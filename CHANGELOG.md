@@ -1,3 +1,7 @@
+# [0.2.0]
+
+* nullable support
+
 # [0.1.2]
 
 * fix uri
