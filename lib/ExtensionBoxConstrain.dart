@@ -3,11 +3,11 @@ import 'package:flutter/widgets.dart';
 import 'ScreenSize.dart';
 
 extension ExtensionBoxConstrain on BoxConstraints {
-  bool get isExtraSmall => this.maxWidth <= 600;
-  bool get isSmall => this.maxWidth > 600 && this.maxWidth <= 768;
-  bool get isMedium => this.maxWidth > 768 && this.maxWidth <= 992;
-  bool get isLarge => this.maxWidth > 992 && this.maxWidth <= 1200;
-  bool get isExtraLarge => this.maxWidth > 1200;
+  bool get isExtraSmall => maxWidth <= 600;
+  bool get isSmall => maxWidth > 600 && maxWidth <= 768;
+  bool get isMedium => maxWidth > 768 && maxWidth <= 992;
+  bool get isLarge => maxWidth > 992 && maxWidth <= 1200;
+  bool get isExtraLarge => maxWidth > 1200;
 
   String get screen {
     if (isExtraSmall) return "ExtraSmall";
